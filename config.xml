@@ -5,23 +5,14 @@
  id ="com.phonegap.app1"
  version = "1.0.0">
  
- <name>Hyper Slide Analytics</name>
+ <name>Regeneracion SPA</name>
   
  <description>
- Aprende Algebra Jugando
+  Administrar las citas generadas en el sitio de Regeneracion SPA.
  </description>
  
  <author href="https://build.phonegap.com" email="arceuz01@gmail.com">
  Angel Arturo Marquez Soberanes
- </author>
- <author href="https://build.phonegap.com" email="monse240216@gmail.com">
- Ximena Monserrath Hernández Castillo
- </author>
- <author href="https://build.phonegap.com" email="santiagoxmtz@hotmail.com">
- Santiago Xicotencatl Mártinez
- </author>
- <author href="https://build.phonegap.com" email="brunogpfm@gmail.com">
- Bruno García Sanchez
  </author>
  
  <!--Perzonaliza la aplicación y plataforma-->
