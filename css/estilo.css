@@ -1,0 +1,193 @@
+/* CSS Document */
+body{
+		font-family: 'CaviarDreams';
+	}
+
+	@font-face {
+	font-family: 'CaviarDreams';
+	src: url('fonts/CaviarDreams.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	}
+
+#login {
+	background-image: linear-gradient(to bottom right, rgba(125, 150, 50, .6), rgba(234, 46, 212, .7)), url(../img/spa12.jpeg);
+	background-position: center, center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#login-main {
+	padding: 30px;
+} 
+
+#login-logo {
+	width: 80px;
+	height: 80px;
+	display: block;
+	margin: auto;
+	padding-bottom: 30px;
+}
+
+#login-form {
+	height: 300px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 25px;
+}
+
+#login-form>div {
+
+  text-align: center;
+}
+
+#login-form>div h1 {
+	color: #addd12;
+	text-shadow: transparent;
+	font-size: 1.4em;
+}
+
+.input i {
+	color: #FFF;
+	text-shadow: 0 0 0 #000, 0 0 0 #000, 0 0 0 #000;
+}
+
+.input input{	
+	
+	background: rgba(0, 0, 0, 0);
+	width: 100%;
+	height: 40px;
+	border-left: none; 
+	border-right: none; 
+	border-top: none;
+	border-bottom: 1px solid green;
+	color: #000;
+	text-indent: 35px;
+	outline: none;
+	font-size: 1.1em;
+}
+
+#login-form div:nth-child(2) {	
+	background-image: url(../img/user.png);
+}
+
+#login-form div:nth-child(3) {	
+	background-image: url(../img/pass.png);
+}
+
+#login-form div:nth-child(2),
+#login-form div:nth-child(3) 
+{
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-position: 30px 42px;
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+}
+
+#login-form div:nth-child(4) {
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;	
+} 
+
+.button input{
+	background-image: linear-gradient(to bottom right, rgba(125, 150, 50, 1), rgba(234, 46, 212, 1));
+	color: #fff;
+	width: 100%;
+	height: 50px;
+	border: none;
+	border-radius: 25px;
+    
+}
+#login-footer {
+	background-color: transparent;
+	text-align: center;
+	border: 1px solid transparent;
+}
+
+#ipservidor {
+	display: inline-block;
+	outline: transparent;
+}
+
+#citas {
+	background-image: linear-gradient(to bottom right, rgba(125, 150, 50, .6), rgba(234, 46, 212, .7)), url(../img/spa12.jpeg);
+	background-position: center, center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.cita {
+	width: 85%;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.30);
+	margin-top: 15px;
+	border-radius: 15px;
+	padding: 0.5em;
+}
+
+.datos-cita {
+	color: #FFF;
+	font-weight: bold;
+}
+
+.fecha {
+	padding: 0.3em 0.5em;	
+}
+.fecha span:first-child {
+	float: left;
+}
+
+.fecha span:last-child {
+	float: right;
+}
+
+.datos-cita h3 {
+	clear: both;
+	padding-left: 0.5em;
+	font-size: 1.3em;
+	margin-bottom: 3px;
+}
+.acciones:active,
+.acciones:link,
+.acciones:visited,
+.acciones:visited {
+	color:#FFF;
+}
+
+.acciones {	
+	border: 1px solid rgba(255,255,255,0.50);
+	background-image: linear-gradient(to bottom right, rgba(125, 150, 50, 0.8), rgba(234, 46, 212, 0.7));
+	line-height: 1em;
+}
+
+.acciones.ui-btn-icon-left:after {
+	left: 1.8em;
+}
+
+.ui-btn.acciones {
+	font-size: 0.8em;
+}
+
+#header-citas div {
+	margin: 2px auto;
+	padding: 0px;
+}
+
+#header-citas h1 {
+	padding: 0;
+}
+
+#header-citas {
+	background-color: transparent;
+	color: #FFF;
+	text-align: center;
+	border: 1px solid transparent;
+	font-size: 1.5em;
+}
+
+#login-logo-min {
+	width: 13%;
+	height: auto;
+}
