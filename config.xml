@@ -1,52 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>  
- <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->  
-		 <widget xmlns   = "http://www.w3.org/ns/widgets"  
-     xmlns:gap = "http://phonegap.com/ns/1.0"  
-     id    = "com.phonegap.regeneracionapp"  
-     version  = "1.0.0">  
-	 
-   <name> Regeneracion Citas </name>  
-   
-   <description>  
-     Administra las citas para el sitio web regeneración
-   </description>  
-   
-   <author href="https://build.phonegap.com" email="micorreo@gmail.com">  
-       Autor
-   </author>  
-   
-   <!-- Personaliza la aplicacion y plataforma  -->  
-   <preference name="phonegap-version" value="3.7.0" />
-   <preference name="orientation"        value="portrait" />    
-   <preference name="target-device"       value="universal" />   
-   <preference name="fullscreen"         value="true" />      
-   <preference name="android-installLocation"  value="auto" />  
-   <preference name="SplashScreen" value="splash"/>
-   <preference name="SplashScreenDelay" value="1000"/>
 
-   <!-- Plugins -->  
-   <!-- Core plugins -->  
-
-   <gap:plugin name="org.apache.cordova.splashscreen" />  
-   <gap:plugin name="org.apache.cordova.vibration" /> 
-   <gap:plugin name="org.apache.cordova.dialogs" />
+<widget xmlns = "http://www.w3.org/ns/widgets"
+ xmlns:gap = "http://phonegap.com/ns/1.0"
+ id ="com.phonegap.app1"
+ version = "1.0.0">
  
-
-   <!-- Third party plugins -->
-   
-   <!-- Define los iconos de la aplicacion para cada plataforma -->  
-   <icon src="icon.png" />  
-   <icon src="res/icon/android/icon-36-ldpi.png"  gap:platform="android"  gap:qualifier="ldpi" />  
-   <icon src="res/icon/android/icon-48-mdpi.png"  gap:platform="android"  gap:qualifier="mdpi" />  
-   <icon src="res/icon/android/icon-72-hdpi.png"  gap:platform="android"  gap:qualifier="hdpi" />  
-   <icon src="res/icon/android/icon-96-xhdpi.png" gap:platform="android"  gap:qualifier="xhdpi" />  
-
-   <!-- Define la pantalla de splash para cada plataforma -->  
-   <gap:splash src="splash.png" />
-   <gap:splash src="res/screen/android/screen-ldpi-portrait.png"    gap:platform="android" gap:qualifier="port-ldpi" />  
-   <gap:splash src="res/screen/android/screen-mdpi-portrait.png"    gap:platform="android" gap:qualifier="port-mdpi" />  
-   <gap:splash src="res/screen/android/screen-hdpi-portrait.png"    gap:platform="android" gap:qualifier="port-hdpi" />  
-   <gap:splash src="res/screen/android/screen-xhdpi-portrait.png"   gap:platform="android" gap:qualifier="port-xhdpi" />  
-
-   
- </widget>  
+ <name>Hyper Slide Analytics</name>
+  
+ <description>
+ Aprende Algebra Jugando
+ </description>
+ 
+ <author href="https://build.phonegap.com" email="arceuz01@gmail.com">
+ Angel Arturo Marquez Soberanes
+ </author>
+ <author href="https://build.phonegap.com" email="monse240216@gmail.com">
+ Ximena Monserrath Hernández Castillo
+ </author>
+ <author href="https://build.phonegap.com" email="santiagoxmtz@hotmail.com">
+ Santiago Xicotencatl Mártinez
+ </author>
+ <author href="https://build.phonegap.com" email="brunogpfm@gmail.com">
+ Bruno García Sanchez
+ </author>
+ 
+ <!--Perzonaliza la aplicación y plataforma-->
+ <preference name="orientation" value="default"/>
+ <!--<preference name="orientation" value="portrait"/>
+ <preference name="orientation" value="landscape"/>-->
+ <preference name="target-device" value="universal"/>
+ <preference name="fullscreen" value="true"/>
+ <preference name="android-installLocation" value="auto"/>
+ <preference name="permissions" value="INTERNET"/>
+ 
+ <!--Plugins-->
+ <plugin name="cordova-plugin-device" spec="~1.1.4"/>
+ <plugin name="cordova-plugin-vibration" spec="~2.1.3"/>
+ <plugin name="cordova-plugin-dialogs" spec="~1.3.1"/>
+ 
+ <!--<plugin name="cordova-plugin-geolocation" source="npm"/>-->
+ 
+ 
+ <!--Colocar icono app -->
+ 
+ <icon src="res/android/mdpi.png"/>
+ 
+ </widget>   
