@@ -34,6 +34,6 @@
  
  <!--Colocar icono app -->
  
- <icon src="res/android/spa.ico"/>
+ <icon src="res/android/spa.png"/>
  
  </widget>   
